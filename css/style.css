@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+header{
+    padding: 23px 0;
+    display: flex;
+    justify-content: space-around;
+    background: white;
+}
+.soc_img{
+    padding-right: 20px;
+}
+section:first-of-type{
+    background: #FAC960;
+    height: 421px;
+}
+.validation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    width: 679px;
+    text-align: center;
+    color: #8A6D2F;
+    font-weight: normal;
+    font-size: 43px;
+    line-height: 54px;
+}
+input{
+    background: #FFFFFF;
+    border: none;
+    width: 560px;
+    height: 54px;
+    padding-left: 36px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 54px;
+}
+#first_butt{
+    background: #A8863D;
+    padding: 0px 37px;
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 54px;
+    color: #FFFFFF;
+    border: none;
+}
+form{
+    display: flex;
+}
+section:nth-of-type(2){
+    height: 438px;
+    background: #F2F2F2;
+}
+h2{
+    font-size: 37px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 0.56);
+}
+h3{
+    width: 819px;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+    padding-bottom: 56px;
+}
+section:nth-of-type(3){
+    background: #FFFFFF;
+    padding: 0;
+}
+.phone_img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.phon_blck{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.last_blck{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background: #FAC960;
+    top: 1605px;
+    height: 313px;
+    width: 100%;
+}
+.last_blck>h2{
+    margin: 54px auto 0px;
+}
+.last_blck>h3{
+    margin: 31px auto 0px;
+    padding: 0px;
+}
+#last_butt{
+    padding: 0px;
+    margin-top: 33px;
+    width: 61px;
+    height: 22px;
+    background: #FFFFFF;
+    border: 1px solid #758696;
+    border-radius: 3px;
+}
+footer{
+    height: 240px;
+}
+.foot_logo{
+    padding-top: 81px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.social{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 22px;
+}
+.foot_med{
+    margin-right: 22px;
+}
