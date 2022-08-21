@@ -93,7 +93,6 @@ section:nth-of-type(3){
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     background: #FAC960;
     top: 1605px;
     height: 313px;
