@@ -5,7 +5,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
 }
 header{
     padding: 23px 0;
@@ -18,15 +17,19 @@ header{
 }
 section:first-of-type{
     background: #FAC960;
-    height: 421px;
+    height: auto;
 }
-.validation{
+form{
+    padding-bottom: 117px;
+}
+.val{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 h1{
+    padding-top: 102px;
     width: 679px;
     text-align: center;
     color: #8A6D2F;
@@ -65,17 +68,21 @@ h2{
     line-height: 36px;
     color: rgba(0, 0, 0, 0.56);
 }
-h3{
+p{
     width: 819px;
     font-size: 23px;
     line-height: 30px;
     text-align: center;
     color: rgba(0, 0, 0, 0.4);
+}
+.par.one{
     padding-bottom: 56px;
 }
-section:nth-of-type(3){
-    background: #FFFFFF;
-    padding: 0;
+.par.two{
+    padding-bottom: 32px;
+}
+.par.three{
+    padding-bottom: 33px;
 }
 .phone_img{
     justify-content: center;
@@ -83,11 +90,7 @@ section:nth-of-type(3){
     display: flex;
 }
 .phon_blck{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    text-align: center;
 }
 .last_blck{
     display: flex;
@@ -107,7 +110,7 @@ section:nth-of-type(3){
 }
 #last_butt{
     padding: 0px;
-    margin-top: 33px;
+    margin-bottom: 33px;
     width: 61px;
     height: 22px;
     background: #FFFFFF;
@@ -115,10 +118,9 @@ section:nth-of-type(3){
     border-radius: 3px;
 }
 footer{
-    height: 240px;
+    padding: 80px 0px;
 }
 .foot_logo{
-    padding-top: 81px;
     justify-content: center;
     align-items: center;
     display: flex;
